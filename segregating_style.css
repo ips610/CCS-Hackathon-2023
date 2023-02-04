@@ -1,0 +1,18 @@
+.body{
+    background-color: #021323;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    z-index: 10;
+}
+.bintype{
+    background-color: #021323;
+}
+.bintypelist{
+    background-color: #021323;
+}
