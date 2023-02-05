@@ -93,7 +93,7 @@
     display: flex;
     width: 100%;
     position: absolute;
-    bottom: 13%;
+    bottom: 10%;
     justify-content: center;
     color: white;
     font-size: 50px;
@@ -121,13 +121,35 @@
 
 .volunteer_btn{
     color: aliceblue;
-    font-size: 20px;
+    font-size: 45px;
     bottom: 80%;
     display: flex;
-    width: 150px;
+    width: 300px;
     position: absolute;
     background-color: hotpink;
     justify-content: center;
     border-radius: 50px;
+    transform: translate(70%,-250%)
 }
-
+.volunteer_btn:hover{
+    color: rgb(1, 19, 34);
+    background-color: rgb(15, 195, 227);
+    
+}
+.company_btn{
+    color: aliceblue;
+    font-size: 45px;
+    bottom: 80%;
+    display: flex;
+    width: 300px;
+    position: absolute;
+    background-color: hotpink;
+    justify-content: center;
+    border-radius: 50px;
+    transform: translate(325%,-250%)
+}
+.company_btn:hover{
+    color: rgb(1, 19, 34);
+    background-color: rgb(15, 195, 227);
+    
+}

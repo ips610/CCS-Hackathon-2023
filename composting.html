@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="composting_style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Think Ambiente</title>
@@ -16,28 +16,31 @@
         <header class="text-gray-400 bg-gray-900 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2"
-                        class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
-                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                    </svg>
+                    <svg viewBox="0 0 1000 1000" href="index.html">
+	<symbol id="leaf" viewBox="-0.1 -0.1 3.2 3.2">
+		<path stroke-width="0.2" d="m0,0 h1 a2,2 0,0,1 2,2 v1 h-1 a2,2 0,0,1 -2,-2z"/>
+	</symbol>
+	<use xlink:href="#leaf" x="100" y="100" width="620" height="620" stroke="darkgreen" fill="green"/>
+	<use xlink:href="#leaf" x="500" y="250" width="380" height="380" stroke="red" fill="orange"/>
+</svg>
+
                     <span class="ml-3 text-xl">Think Ambiente</span>
                 </a>
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a class="mr-5 hover:text-white">Home</a>
+                    <a class="mr-5 hover:text-white" href="index.html">Home</a>
                     <a class="mr-5 hover:text-white">Our Mission</a>
                     <a class="mr-5 hover:text-white">Contribute</a>
                     <a class="mr-5 hover:text-white">About Us</a>
                     <a class="mr-5 hover:text-white">Blog</a>
                     <a class="mr-5 hover:text-white">Contact Us</a>
                 </nav>
-                <button
-                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Login
+                <a href="signup.html" target="_blank"><button
+                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign Up
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                </button>
+                </button></a>
             </div>
         </header>
     </div>
@@ -177,7 +180,7 @@
                     </div>
                   </div>
                 </div>
-                <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step">
+                <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="compost.png" alt="step">
               </div>
             </div>
           </section>
